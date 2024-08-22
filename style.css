@@ -10,7 +10,6 @@ body {
 
 .form {
     background: rgba(255, 255, 255, 0.1);
-    /* backdrop-filter: blur(10px); */
     border-radius: 20px;
     padding: 40px 30px;
     width: 320px;
@@ -19,7 +18,7 @@ body {
 }
 
 .form h1 {
-    background: rgba(255, 255, 255, 0.1); /* Light circular background */
+    background: rgba(255, 255, 255, 0.1);
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -28,8 +27,7 @@ body {
     align-items: center;
     color: rgba(255, 255, 255, 0.8);
     font-size: 50px;
-    margin: 0 auto 20px auto; /* Centering the icon */
-}
+    margin: 0 auto 20px auto;
 
 
 .form .email, .form .password {
